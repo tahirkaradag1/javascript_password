@@ -5,7 +5,7 @@ const requirementList = document.querySelectorAll(".requirmenet-list li")
 
 const requirements = [
     { regex: /.{8,}/, index: 0 }, // En az 8 karakter uzunluğunda
-    { regex: /[0-9]/, index: 1 }, // En az 1 sayı (0...9)
+    { regex: /[0-9]/, index: 1 }, // En az 1 rakam (0...9)
     { regex: /[a-z]/, index: 2 }, // En az 1 küçük harf (a...z)
     { regex: /[^A-Za-z0-9]/, index: 3 }, // En az 1 özel sembol (!...$)
     { regex: /[A-Z]/, index: 4 }, // En az 1 büyük harf (A...Z)
